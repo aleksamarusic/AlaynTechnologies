@@ -21,14 +21,16 @@ The system leverages the **Conservation of Angular Momentum**:
 * **Result:** High-precision, vibration-free actuation that is fully plug-and-play.
 
 ## 📈 Business Model: Hardware-Enabled SaaS
-* **The Hook:** We sell custom smart mirror mounts at competitive prices ($500–$1,000) to lower the barrier to entry.
-* **The Margin:** We charge an annual subscription for the **OptiAlign MIMO Controller Software**, turning a one-time hardware sale into high-margin, recurring software revenue.
+* **The Hook:** Deliver a system for free to 10 laboratories
+* **The Margin:** After succussfull lauch, we convert to subscription model and annual recurring revenue system (15k ARR)
+* **The Growth:** Backed by data, we advertise and spread our system into labs all over the world (20-100M+ ARR)
 
-## 🛠️ MVP: Software-in-the-Loop (SITL)
+## 🛠️ MVP
 We have implemented a rigorous **Digital Twin** to prove our math:
-* **The Brain:** Uses `LightPipes` visualize laser and mirrors, and uses Nelder-Mead optimization for finding the optimal positions of the mirrors
-* **Verification:** The SITL engine proves our algorithms effectively control a cascaded system before we even mount the hardware.
-
+* **The Brain (software optimization):** Uses `LightPipes` visualize laser and mirrors, and uses Nelder-Mead optimization for finding the optimal positions of the mirrors
+* **Verification:** The simulation proves our algorithms effectively control a cascaded system before we even mount the hardware.
+* **3D model and visualization:** Blender script that creates laser, adjustable mirror and hardware device that will turn the knob on the mirroe. Rendered simulation to show how it works.
+* **Verification:** Science backed technology, with technical plan / roadmap built to support our solution.
 
 ---
 *Built for the Paris Builds Hackathon (June 2026).*
